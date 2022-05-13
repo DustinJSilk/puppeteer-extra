@@ -34,3 +34,4 @@ testing/
 
 *.tgz*
 
+!packages/puppeteer-extra-plugin-adblocker/dist
