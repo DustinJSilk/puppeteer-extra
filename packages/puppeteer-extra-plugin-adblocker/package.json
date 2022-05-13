@@ -23,7 +23,8 @@
     "test": "ava -v --config ava.config-ts.js",
     "pretest-ci": "run-s build",
     "test-ci-back": "ava --concurrency 1 --serial --fail-fast -v",
-    "test-ci": "exit 0"
+    "test-ci": "exit 0",
+    "postinstall": "npm run install && npm run build"
   },
   "engines": {
     "node": ">=8"
